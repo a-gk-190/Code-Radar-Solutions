@@ -5,11 +5,12 @@ char* welcome() {
 }
 
 int main() {
-    // printf("%s", welcome());
+    char name[100];
+    scanf("%s",name);
     int age;
     scanf("%d",&age);
-    char name[100],hobby[100];
-    scanf(" %s %s",name,hobby);
+     char hobby[100];
+    scanf(" %s",hobby);
     printf("Name: %s\nAge: %d\nHobby: %s",name,age,hobby);
     return 0;
 }
