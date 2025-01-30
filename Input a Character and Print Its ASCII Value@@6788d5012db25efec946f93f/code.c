@@ -8,7 +8,7 @@ int main() {
     // printf("%s", welcome());
     char ch;
     scanf("%c",&ch);
-    int ch = (int)ch;
+    int chr = (int)ch;
 printf("ASCII Value: %d",ch);
 
     return 0;
