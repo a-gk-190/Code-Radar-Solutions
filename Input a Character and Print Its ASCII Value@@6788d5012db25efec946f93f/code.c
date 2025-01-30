@@ -9,7 +9,7 @@ int main() {
     char ch;
     scanf("%c",&ch);
     int chr = (int)ch;
-printf("ASCII Value: %d",ch);
+printf("ASCII Value: %d",chr);
 
     return 0;
 }
