@@ -11,7 +11,7 @@ int main() {
     int Check = ch;
     if(Check >64 && Check <91){
         printf("Uppercase");
-    }else{
+    }else if(Check > 96 && Check <123){
         printf("Lowercase");
     }
     return 0;
