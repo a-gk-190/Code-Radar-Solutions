@@ -13,6 +13,8 @@ int main() {
         printf("Uppercase");
     }else if(Check > 96 && Check <123){
         printf("Lowercase");
+    }else{
+        printf("Not an alphabet");
     }
     return 0;
 }
