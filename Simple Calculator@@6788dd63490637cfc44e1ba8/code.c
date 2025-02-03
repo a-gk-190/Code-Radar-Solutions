@@ -10,11 +10,11 @@ int main()
     scanf("%c", &Operator);
     if("Operator == '+'"){
         printf("%d",num1+num2);
-    }else if(Operator == '-'){
+    }else if("Operator == '-'"){
         printf("%d",num1 - num2);
-    }else if(Operator == '*'){
+    }else if("Operator == '*'"){
         printf("%d",num1*num2);
-    }else if(Operator == '/'){
+    }else if("Operator == '/'"){
         printf("%d",num1/num2);
     }else{
         printf("Error");
