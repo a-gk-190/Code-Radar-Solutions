@@ -14,7 +14,7 @@ int main()
     }
     else
     {
-        prinf("Different Sign");
+        printf("Different Sign");
     }
     return 0;
 }
