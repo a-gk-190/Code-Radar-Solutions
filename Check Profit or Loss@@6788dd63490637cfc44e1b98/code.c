@@ -6,8 +6,8 @@ char* welcome() {
 
 int main() {
     // printf("%s", welcome());
-    int sp,cp;
-    scanf("%d %d",&sp,&cp);
+    int cp,sp;
+    scanf("%d %d",&cp,&sp);
     if(sp > cp){
         printf("Profit");
     }else if(sp < cp){
