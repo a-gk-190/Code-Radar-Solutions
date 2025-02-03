@@ -7,7 +7,7 @@ char* welcome() {
 int main() 
 {
     // printf("%s", welcome());
-    double num1,num2;
+    int num1,num2;
     scanf("%d %d",&num1,&num2);
     char Operator;
     scanf("%c",&Operator);
