@@ -17,7 +17,7 @@ printf("C");
     }else if(num>=60){
         printf("D");
     }else {
-        printf("Fail");
+        printf("F");
     }
     return 0;
 }
