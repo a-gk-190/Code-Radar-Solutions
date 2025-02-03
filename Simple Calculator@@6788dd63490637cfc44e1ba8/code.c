@@ -16,8 +16,10 @@ int main() {
         printf(num1 - num2);
     }else if(Operator == "*"){
         printf(num1*num2);
-    }else{
+    }else if(Operator == "/"){
         printf(num1/num2);
+    }else{
+        printf("Error");
     }
     return 0;
 }
