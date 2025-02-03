@@ -20,8 +20,6 @@ int main()
     else if(Operator == '/'){
         printf("%d",num1/num2);
     }
-    else{
-        printf("Error");
-    }
+    
     return 0;
 }
