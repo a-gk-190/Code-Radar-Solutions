@@ -7,8 +7,8 @@ char* welcome() {
 int main() {
     // printf("%s", welcome());
     int num1,num2;
-    scanf("%d %d",&num1,&num2);
     char ch;
+    scanf("%d %d",&num1,&num2);
     scanf("%c",&ch);
     if(ch=='+'){
         printf("%d",num1+num2);
