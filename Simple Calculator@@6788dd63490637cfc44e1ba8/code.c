@@ -8,7 +8,9 @@ int main() {
     
     int num1,num2;
     char ch;
-    scanf("%d %d %c",&num1,&num2,&ch);
+    // scanf("%d %d %c",&num1,&num2,&ch);
+    scanf("%d %d",&num1,&num2);
+    scanf(" %c",&ch);
    
     if(ch=='+')
     {
@@ -38,6 +40,5 @@ int main() {
 
 
 
-
-    return 0;
+return 0;
 }
