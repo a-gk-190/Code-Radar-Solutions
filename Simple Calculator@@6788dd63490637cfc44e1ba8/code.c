@@ -30,16 +30,16 @@ int main() {
     multi=a*b;
     div=a/b;
     scanf("%d%d%d%d",&add,&multi,&sub,&div);
-    if(c=="+"){
+    if(c=='+'){
         printf("%d",add);
     }
-    else if(c=="-"){
+    else if(c=='-'){
         printf("%d",,sub);
     }
-    else if(c=="*"){
+    else if(c=='*'){
         printf("%d",multi);
     }
-    else if(c=="/"){
+    else if(c=='/'){
         printf("%d",div);
     }
 
