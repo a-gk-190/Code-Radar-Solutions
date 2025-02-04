@@ -9,9 +9,9 @@ int main() {
     int num;
     scanf("%d",&num);
     if(num >! 0){
-        printf("True");
-    }else{
         printf("False");
+    }else{
+        printf("True");
     }
     return 0;
 }
