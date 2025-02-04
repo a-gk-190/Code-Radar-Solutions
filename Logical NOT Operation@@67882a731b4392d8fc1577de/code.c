@@ -8,7 +8,7 @@ int main() {
     // printf("%s", welcome());
     int num;
     scanf("%d",&num);
-    if(num!>0){
+    if(num >! 0){
         printf("True");
     }else{
         printf("False");
