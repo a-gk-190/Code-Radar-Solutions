@@ -6,13 +6,12 @@ char* welcome() {
 
 int main() {
     // printf("%s", welcome());
-    int num1;
-    scanf("%d",&num1);
-    bool x = !(num1>0);
-    if(x){
+    int num;
+    scanf("%d",&num);
+    if(num!>0){
         printf("True");
     }else{
-        printf("False");
+        printf("False")
     }
     return 0;
 }
