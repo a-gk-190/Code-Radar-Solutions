@@ -14,10 +14,10 @@ int main() {
         printf("%d",num1+num2);
     }else if(ch=='-'){
         printf("%d",num1-num2);
-    }else if(ch=='*'){
+    }else if(ch=='*' &&num2==0){
         printf("%d",num1*num2);
-    }else if(ch=='/'){
-        printf("%d",(num1/num2));
+    }else if(ch=='/' && num2==0){
+        printf("%d",num1/num2);
     }else {
         printf("error");
     }
