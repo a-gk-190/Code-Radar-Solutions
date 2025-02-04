@@ -29,7 +29,7 @@ int main() {
     sub=a-b;
     multi=a*b;
     div=a/b;
-    scanf("%d%d%d%d",&add,&multi,&sub,&div);
+    // scanf("%d%d%d%d",&add,&multi,&sub,&div);
     if(c=='+'){
         printf("%d",add);
     }
