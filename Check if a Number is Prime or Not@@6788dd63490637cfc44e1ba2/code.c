@@ -22,11 +22,11 @@ int main() {
 
         
         if (cnt > 2)
-            printf("%d is NOT prime\n", n);
+            printf("Not Prime");
 
         
         else
-            printf("%d is prime", n);
+            printf("Prime");
     }
 
     return 0;
