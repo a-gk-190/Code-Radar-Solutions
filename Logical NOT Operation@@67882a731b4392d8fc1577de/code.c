@@ -11,7 +11,7 @@ int main() {
     if(num!>0){
         printf("True");
     }else{
-        printf("False")
+        printf("False");
     }
     return 0;
 }
