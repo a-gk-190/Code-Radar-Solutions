@@ -3,7 +3,8 @@
 #include <stdio.h>
 
 int main() {
-    int n = 29;
+    int n;
+    scanf("%d",&n);
 
     int cnt = 0;
 
