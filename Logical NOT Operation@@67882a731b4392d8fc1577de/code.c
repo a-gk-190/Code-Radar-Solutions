@@ -8,10 +8,10 @@ int main() {
     // printf("%s", welcome());
     int num;
     scanf("%d",&num);
-    if(num >! 0){
-        printf("False");
-    }else{
-        printf("True");
-    }
+   if(!(num>0)){
+    printf("True");
+   }else{
+    printf("False");
+   }
     return 0;
 }
