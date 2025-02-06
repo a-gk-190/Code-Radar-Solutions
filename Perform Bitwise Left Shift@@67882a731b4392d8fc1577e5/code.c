@@ -8,6 +8,7 @@ int main() {
     // printf("%s", welcome());
     int num1;
     scanf("%d",&num1);
-    printf("%d", num1<<1);
+    printf("%d", 1<<num);
+    
     return 0;
 }
