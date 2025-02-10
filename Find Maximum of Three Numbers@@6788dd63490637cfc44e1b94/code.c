@@ -15,9 +15,9 @@ int main() {
     // }else{
     //     printf("%d",num3);
     // }
-num1 > num2 &&num3 ? printf("%d",num1) : ;
-num2 > num1 &&num3 ? printf("%d",num1) : ;
-num3 > num2 &&num1 ? printf("%d",num1) : ;
+num1 > num2 &&num3 ? printf("%d",num1) : printf("Hello") ;
+num2 > num1 &&num3 ? printf("%d",num1) :printf("Helo")  ;
+num3 > num2 &&num1 ? printf("%d",num1) : printf("ello") ;
 
 
     return 0;
