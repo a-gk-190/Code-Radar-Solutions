@@ -6,9 +6,11 @@ char* welcome() {
 
 int main() {
     // printf("%s", welcome());
-    int num1;
+    int num1,number;
     scanf("%d",&num1);
-    printf("%d", 1<<num);
+    scanf("%d",number);
+    printf("%d", num1<<number);
+
     
     return 0;
 }
