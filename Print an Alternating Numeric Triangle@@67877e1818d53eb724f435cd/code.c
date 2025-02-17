@@ -16,7 +16,7 @@ for(int i=1;i<=n;i++){
                 printf("1 ");
             }
             else{
-                printf(" 0");
+                printf("0 ");
             }
         }
 
