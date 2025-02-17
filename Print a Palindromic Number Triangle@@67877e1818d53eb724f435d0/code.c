@@ -19,7 +19,7 @@ for(int j=1; j<=(i-1); j++){
 }
 
 
-for(int i=1; i<=n;i++){
+// for(int i=1; i<=n;i++){
 // for(int spc = 1; spc<=(n-i); spc++){
 //     printf(" ");
 // }
