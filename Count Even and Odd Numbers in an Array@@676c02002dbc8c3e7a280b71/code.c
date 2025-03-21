@@ -6,10 +6,16 @@ for(int i=0;i<n;i++){
     printf("Enter element number: %d",i+1);
     scanf("%d",&arr[i]);
 }
+int even = 0;
+int odd = 0;
 for(int i=0;i<n;i++){
-    printf("%d ",arr[i]);
+    if(arr[i]%2==0){
+        even++;
+    }else{
+        odd++;
+    }
 }
-
+printf("%d %d",even,odd);
 
     return 0;
 }
