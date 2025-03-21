@@ -1,9 +1,9 @@
 // Your code here...
 #include<stdio.h>
 int main(){
- int arr[];
- scanf("%d",&arr);
  int n;
+ int arr[n];
+ scanf("%d",&arr);
 for(int i=0;i<n;i++){
     if(arr[n]>arr[n-1] && arr[n]>arr[n+1]){
         printf("%d",arr[n]);
