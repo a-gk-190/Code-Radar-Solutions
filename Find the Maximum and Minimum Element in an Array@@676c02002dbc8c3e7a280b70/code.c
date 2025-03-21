@@ -19,7 +19,7 @@ for(int i=0;i<n;i++){
         arr[i+1]=temp;
     }
 }
-printf("%d %d",arr[o],arr[n-1]);
+printf("%d %d",arr[0],arr[n-1]);
 
 
     return 0;
