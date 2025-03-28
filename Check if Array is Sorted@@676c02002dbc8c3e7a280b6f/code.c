@@ -8,11 +8,16 @@
         scanf("%d",&arr[i]);
     }
 for(int i=0;i<n;i++){
+    if(i>0){
+
+    
     if(arr[i-1] < arr[i]){
         printf("%d ",arr[i-1]);
     }else{
         printf("%d ",arr[n]);
     }
+    }
+    
 }
 
 
